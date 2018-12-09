@@ -10,14 +10,18 @@ function scuberGreetingForFeet(ride) {
     return 'This one is on me!'
   }
 }
+//
+// function ternaryCheckCity(city) {
+//   if (city === "NYC") {
+//     return "Ok, sounds good."
+//   }
+//   else {
+//     return "No go."
+//   }
+// }
 
 function ternaryCheckCity(city) {
-  if (city === "NYC") {
-    return "Ok, sounds good."
-  }
-  else {
-    return "No go."
-  }
+  return city ==="NYC"? "Ok, sounds good." : "No go.";
 }
 
 function switchOnCharmFromTip(tip) {
